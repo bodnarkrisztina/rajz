@@ -14,4 +14,4 @@ with st.expander('Plot'):
 
 # Select other Plotly events by specifying kwargs
 fig = px.line(x=[1], y=[1])
-selected_points = plotly_events(fig, click_event=False, hover_event=True)
+selected_points = plotly_events(fig, click_event=True, hover_event=True)
