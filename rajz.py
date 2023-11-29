@@ -1,5 +1,4 @@
 ### Usage
-Import the component, and use it like any other Streamlit custom component!
 ```python
 import plotly.express as px
 import streamlit as st
